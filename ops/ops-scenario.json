@@ -1,0 +1,709 @@
+{
+  "vesselId": "v2",
+  "durationS": 104,
+  "cameras": [
+    {
+      "cameraId": "v2-c11",
+      "clip": "ops/bridge.webm",
+      "poster": "ops/bridge.jpg",
+      "startAt": 6.0,
+      "durationS": 28.0,
+      "loop": false
+    },
+    {
+      "cameraId": "v2-c04",
+      "clip": "ops/cargo.webm",
+      "poster": "ops/cargo.jpg",
+      "startAt": 34.0,
+      "durationS": 10.0
+    },
+    {
+      "cameraId": "v2-c13",
+      "clip": "ops/spares.webm",
+      "poster": "ops/spares.jpg",
+      "startAt": 62.0,
+      "durationS": 17.0,
+      "loop": false,
+      "tracks": "ops/v2-c13.tracks.json"
+    },
+    {
+      "cameraId": "v2-c10",
+      "clip": "ops/bonded.webm",
+      "poster": "ops/bonded.jpg",
+      "startAt": 79.0,
+      "durationS": 8.667,
+      "loop": false
+    },
+    {
+      "cameraId": "v2-c12",
+      "clip": "ops/provision.webm",
+      "poster": "ops/provision.jpg",
+      "startAt": 0.0,
+      "durationS": 8.0
+    }
+  ],
+  "cameraPatches": [
+    {
+      "id": "v2-c11",
+      "space": "Bridge wing stbd"
+    },
+    {
+      "id": "v2-c04",
+      "space": "Deck port \u00b7 crane"
+    },
+    {
+      "id": "v2-c10",
+      "space": "Bonded store"
+    },
+    {
+      "id": "v2-c12",
+      "space": "Provision store"
+    },
+    {
+      "id": "v2-c13",
+      "space": "Engine spares store"
+    }
+  ],
+  "ops": {
+    "cargo": {
+      "operation": "load",
+      "fileName": "PACIFIC-RANGER_V2629N_SGSIN_loadlist.xlsx",
+      "uploadedBy": "C/O Mendoza",
+      "rows": [
+        {
+          "containerNo": "MSCU2352455",
+          "bay": "140282",
+          "pod": "SGSIN",
+          "weightKg": 24000
+        },
+        {
+          "containerNo": "TGHU6880050",
+          "bay": "140482",
+          "pod": "MYPKG",
+          "weightKg": 15000
+        },
+        {
+          "containerNo": "CSQU1798088",
+          "bay": "140682",
+          "pod": "IDJKT",
+          "weightKg": 22000
+        },
+        {
+          "containerNo": "TCLU4132847",
+          "bay": "140882",
+          "pod": "SGSIN",
+          "weightKg": 25000
+        },
+        {
+          "containerNo": "SWSU4182734",
+          "bay": "141082",
+          "pod": "MYPKG",
+          "weightKg": 20000
+        },
+        {
+          "containerNo": "FCIU2645225",
+          "bay": "141282",
+          "pod": "IDJKT",
+          "weightKg": 18000
+        },
+        {
+          "containerNo": "SWSU1659741",
+          "bay": "160282",
+          "pod": "SGSIN",
+          "weightKg": 23000
+        },
+        {
+          "containerNo": "MSCU1840630",
+          "bay": "160482",
+          "pod": "MYPKG",
+          "weightKg": 22000
+        },
+        {
+          "containerNo": "TGHU7841629",
+          "bay": "160682",
+          "pod": "IDJKT",
+          "weightKg": 17000
+        },
+        {
+          "containerNo": "CSQU8176189",
+          "bay": "160882",
+          "pod": "SGSIN",
+          "weightKg": 19000
+        },
+        {
+          "containerNo": "TCLU8791462",
+          "bay": "161082",
+          "pod": "MYPKG",
+          "weightKg": 22000
+        },
+        {
+          "containerNo": "SWSU4182919",
+          "bay": "161282",
+          "pod": "IDJKT",
+          "weightKg": 9000
+        },
+        {
+          "containerNo": "FCIU1004612",
+          "bay": "180282",
+          "pod": "SGSIN",
+          "weightKg": 20000
+        },
+        {
+          "containerNo": "SWSU7519773",
+          "bay": "180482",
+          "pod": "MYPKG",
+          "weightKg": 22000
+        },
+        {
+          "containerNo": "MSCU8337123",
+          "bay": "180682",
+          "pod": "IDJKT",
+          "weightKg": 15000
+        },
+        {
+          "containerNo": "TGHU8524439",
+          "bay": "180882",
+          "pod": "SGSIN",
+          "weightKg": 18000
+        },
+        {
+          "containerNo": "CSQU2488195",
+          "bay": "181082",
+          "pod": "MYPKG",
+          "weightKg": 12000
+        },
+        {
+          "containerNo": "TCLU8093667",
+          "bay": "181282",
+          "pod": "IDJKT",
+          "weightKg": 21000
+        },
+        {
+          "containerNo": "SEGU8751835",
+          "bay": "200282",
+          "pod": "SGSIN",
+          "weightKg": 27000
+        },
+        {
+          "containerNo": "FCIU8018048",
+          "bay": "200482",
+          "pod": "MYPKG",
+          "weightKg": 13000
+        },
+        {
+          "containerNo": "SWSU6026582",
+          "bay": "200682",
+          "pod": "IDJKT",
+          "weightKg": 17000
+        },
+        {
+          "containerNo": "MSCU3351520",
+          "bay": "200882",
+          "pod": "SGSIN",
+          "weightKg": 25000
+        },
+        {
+          "containerNo": "TGHU9806381",
+          "bay": "201082",
+          "pod": "MYPKG",
+          "weightKg": 19000
+        },
+        {
+          "containerNo": "CSQU2807950",
+          "bay": "201282",
+          "pod": "IDJKT",
+          "weightKg": 16000
+        },
+        {
+          "containerNo": "TCLU4902357",
+          "bay": "220282",
+          "pod": "SGSIN",
+          "weightKg": 21000
+        },
+        {
+          "containerNo": "SEGU9384457",
+          "bay": "220482",
+          "pod": "MYPKG",
+          "weightKg": 8000
+        },
+        {
+          "containerNo": "FCIU1557500",
+          "bay": "220682",
+          "pod": "IDJKT",
+          "weightKg": 11000
+        },
+        {
+          "containerNo": "SWSU1238568",
+          "bay": "220882",
+          "pod": "SGSIN",
+          "weightKg": 25000
+        },
+        {
+          "containerNo": "MSCU3941655",
+          "bay": "221082",
+          "pod": "MYPKG",
+          "weightKg": 11000
+        },
+        {
+          "containerNo": "TGHU1471403",
+          "bay": "221282",
+          "pod": "IDJKT",
+          "weightKg": 8000
+        }
+      ],
+      "history": [
+        {
+          "agoS": 3000,
+          "containerNo": "MSCU2352455",
+          "confidence": 98.4
+        },
+        {
+          "agoS": 2810,
+          "containerNo": "TGHU6880050",
+          "confidence": 97.0
+        },
+        {
+          "agoS": 2620,
+          "containerNo": "CSQU1798088",
+          "confidence": 98.8
+        },
+        {
+          "agoS": 2430,
+          "containerNo": "TCLU4132847",
+          "confidence": 97.1
+        },
+        {
+          "agoS": 2050,
+          "containerNo": "FCIU2645225",
+          "confidence": 98.4
+        },
+        {
+          "agoS": 1860,
+          "containerNo": "SWSU1659741",
+          "confidence": 93.8
+        },
+        {
+          "agoS": 1670,
+          "containerNo": "MSCU1840630",
+          "confidence": 97.0
+        },
+        {
+          "agoS": 1480,
+          "containerNo": "TGHU7841629",
+          "confidence": 92.3
+        },
+        {
+          "agoS": 1290,
+          "containerNo": "CSQU8176189",
+          "confidence": 97.6
+        },
+        {
+          "agoS": 1100,
+          "containerNo": "TCLU8791462",
+          "confidence": 96.9
+        },
+        {
+          "agoS": 720,
+          "containerNo": "FCIU1004612",
+          "confidence": 92.5
+        },
+        {
+          "agoS": 530,
+          "containerNo": "SWSU7519773",
+          "confidence": 92.5
+        },
+        {
+          "agoS": 640,
+          "containerNo": "SWSU6026585",
+          "confidence": 61.0
+        }
+      ]
+    },
+    "stores": {
+      "shipTimeAtStart": "22:37",
+      "provisionCameraId": "v2-c12",
+      "bondedCameraId": "v2-c10",
+      "sparesCameraId": "v2-c13",
+      "inventory": [
+        {
+          "id": "SP-1043",
+          "store": "spares",
+          "name": "Main bearing shell",
+          "location": "Rack B \u00b7 Shelf 2",
+          "stock": 5,
+          "min": 4,
+          "unit": "pcs"
+        },
+        {
+          "id": "SP-0871",
+          "store": "spares",
+          "name": "Cylinder liner O-ring set",
+          "location": "Rack B \u00b7 Shelf 2",
+          "stock": 12,
+          "min": 6,
+          "unit": "set"
+        },
+        {
+          "id": "SP-0655",
+          "store": "spares",
+          "name": "Exhaust valve spindle",
+          "location": "Rack B \u00b7 Shelf 3",
+          "stock": 4,
+          "min": 2,
+          "unit": "pcs"
+        },
+        {
+          "id": "SP-2210",
+          "store": "spares",
+          "name": "Fuel pump seal kit",
+          "location": "Rack C \u00b7 Shelf 2",
+          "stock": 6,
+          "min": 2,
+          "unit": "kit"
+        },
+        {
+          "id": "SP-4410",
+          "store": "spares",
+          "name": "Cylinder head gasket set",
+          "location": "Rack C \u00b7 Shelf 4",
+          "stock": 9,
+          "min": 4,
+          "unit": "set"
+        },
+        {
+          "id": "SP-3302",
+          "store": "spares",
+          "name": "Purifier drive gearbox",
+          "location": "Rack A \u00b7 Shelf 1",
+          "stock": 3,
+          "min": 1,
+          "unit": "pcs"
+        },
+        {
+          "id": "SP-1188",
+          "store": "spares",
+          "name": "Spur gear Z=34",
+          "location": "Rack A \u00b7 Shelf 2",
+          "stock": 2,
+          "min": 1,
+          "unit": "pcs"
+        },
+        {
+          "id": "SP-2290",
+          "store": "spares",
+          "name": "Lube oil filter element",
+          "location": "Rack A \u00b7 Shelf 4",
+          "stock": 18,
+          "min": 8,
+          "unit": "pcs"
+        },
+        {
+          "id": "BD-001",
+          "store": "bonded",
+          "name": "Beer 24 \u00d7 330 ml",
+          "location": "Bay 1",
+          "stock": 40,
+          "min": 12,
+          "unit": "ctn"
+        },
+        {
+          "id": "BD-014",
+          "store": "bonded",
+          "name": "Soft drinks 24 \u00d7 330 ml",
+          "location": "Bay 1",
+          "stock": 32,
+          "min": 10,
+          "unit": "ctn"
+        },
+        {
+          "id": "BD-020",
+          "store": "bonded",
+          "name": "Cigarettes (carton of 200)",
+          "location": "Locker 2",
+          "stock": 25,
+          "min": 10,
+          "unit": "ctn"
+        },
+        {
+          "id": "PR-101",
+          "store": "provision",
+          "name": "Rice 25 kg",
+          "location": "Rack A \u00b7 Shelf 1",
+          "stock": 14,
+          "min": 6,
+          "unit": "bag"
+        },
+        {
+          "id": "PR-140",
+          "store": "provision",
+          "name": "Flour 10 kg",
+          "location": "Rack A \u00b7 Shelf 2",
+          "stock": 9,
+          "min": 4,
+          "unit": "bag"
+        },
+        {
+          "id": "PR-212",
+          "store": "provision",
+          "name": "Tomato tins (case of 24)",
+          "location": "Rack B \u00b7 Shelf 2",
+          "stock": 22,
+          "min": 8,
+          "unit": "case"
+        },
+        {
+          "id": "PR-305",
+          "store": "provision",
+          "name": "Cooking oil 5 L",
+          "location": "Rack C \u00b7 Shelf 1",
+          "stock": 11,
+          "min": 4,
+          "unit": "can"
+        }
+      ]
+    },
+    "nav": {
+      "cameraId": "v2-c11",
+      "tracksFile": "v2-c11.tracks.json",
+      "hfovDeg": 62,
+      "destination": "HKHKG",
+      "ownship": {
+        "lat": 1.219,
+        "lon": 103.842,
+        "cogDeg": 75.0,
+        "sogKn": 12.4,
+        "headingDeg": 74.0
+      },
+      "route": [
+        [
+          1.219,
+          103.842
+        ],
+        [
+          1.2235,
+          103.865
+        ],
+        [
+          1.23,
+          103.895
+        ],
+        [
+          1.244,
+          103.93
+        ],
+        [
+          1.35,
+          104.42
+        ],
+        [
+          2.9,
+          105.4
+        ],
+        [
+          12.0,
+          110.2
+        ],
+        [
+          22.28,
+          114.17
+        ]
+      ],
+      "courseChanges": [
+        {
+          "at": 24.5,
+          "cogDeg": 85.0,
+          "headingDeg": 84.0,
+          "overS": 4
+        }
+      ],
+      "targets": [
+        {
+          "id": "T1",
+          "kind": "vessel",
+          "label": "Fishing vessel",
+          "keys": [
+            {
+              "at": 0,
+              "rangeNm": 0.62,
+              "cpaNm": 0.18,
+              "tcpaMin": 5.5
+            },
+            {
+              "at": 24.5,
+              "rangeNm": 0.5,
+              "cpaNm": 0.2,
+              "tcpaMin": 4.2
+            },
+            {
+              "at": 30,
+              "rangeNm": 0.47,
+              "cpaNm": 0.62,
+              "tcpaMin": 3.6
+            },
+            {
+              "at": 104,
+              "rangeNm": 0.8,
+              "cpaNm": 0.65,
+              "tcpaMin": 0.5
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "kind": "vessel",
+          "label": "Cargo vessel",
+          "keys": [
+            {
+              "at": 0,
+              "rangeNm": 3.1,
+              "cpaNm": 2.4,
+              "tcpaMin": 18.0
+            },
+            {
+              "at": 104,
+              "rangeNm": 2.6,
+              "cpaNm": 2.3,
+              "tcpaMin": 12.0
+            }
+          ]
+        },
+        {
+          "id": "T3",
+          "kind": "buoy",
+          "label": "Buoy (stbd hand)",
+          "keys": [
+            {
+              "at": 0,
+              "rangeNm": 1.2,
+              "cpaNm": 0.55,
+              "tcpaMin": 5.8
+            },
+            {
+              "at": 104,
+              "rangeNm": 0.9,
+              "cpaNm": 0.55,
+              "tcpaMin": 4.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "beats": [
+    {
+      "at": 14.5,
+      "do": "advisory",
+      "severity": "caution",
+      "targetId": "T1",
+      "text": "Crossing situation: T1 fishing vessel on the starboard bow, 0.5 nm, CPA 0.2 nm in 4 min. Own ship is give-way (COLREG Rule 15). Advisory: alter early, about 10\u00b0 to starboard, to pass astern of T1."
+    },
+    {
+      "at": 31.0,
+      "do": "advisory",
+      "severity": "info",
+      "targetId": "T1",
+      "text": "T1 CPA now 0.6 nm after the alteration, passing astern. Close-quarters risk no longer indicated; keep monitoring."
+    },
+    {
+      "at": 35.8,
+      "do": "container",
+      "cameraId": "v2-c04",
+      "containerNo": "SWSU4182734",
+      "confidence": 96.2,
+      "bbox": {
+        "x": 0.455,
+        "y": 0.2,
+        "w": 0.39,
+        "h": 0.66
+      },
+      "snapshot": "snap-cargo.jpg"
+    },
+    {
+      "at": 45.8,
+      "do": "container",
+      "cameraId": "v2-c04",
+      "containerNo": "SWSU4182919",
+      "confidence": 94.8,
+      "bbox": {
+        "x": 0.455,
+        "y": 0.2,
+        "w": 0.39,
+        "h": 0.66
+      },
+      "snapshot": "snap-cargo.jpg"
+    },
+    {
+      "at": 55.8,
+      "do": "container",
+      "cameraId": "v2-c04",
+      "containerNo": "SWSU5226400",
+      "confidence": 95.5,
+      "bbox": {
+        "x": 0.455,
+        "y": 0.2,
+        "w": 0.39,
+        "h": 0.66
+      },
+      "snapshot": "snap-cargo.jpg"
+    },
+    {
+      "at": 63.0,
+      "do": "store",
+      "store": "spares",
+      "cameraId": "v2-c13",
+      "phase": "enter",
+      "people": 1,
+      "snapshot": "snap-spares-in.jpg"
+    },
+    {
+      "at": 70.0,
+      "do": "pick",
+      "store": "spares",
+      "cameraId": "v2-c13",
+      "itemId": "SP-1043",
+      "qty": 2,
+      "snapshot": "snap-spares-pick1.jpg"
+    },
+    {
+      "at": 73.8,
+      "do": "pick",
+      "store": "spares",
+      "cameraId": "v2-c13",
+      "itemId": "SP-2210",
+      "qty": 1,
+      "snapshot": "snap-spares-pick2.jpg"
+    },
+    {
+      "at": 77.6,
+      "do": "store",
+      "store": "spares",
+      "cameraId": "v2-c13",
+      "phase": "exit"
+    },
+    {
+      "at": 80.43,
+      "do": "store",
+      "store": "bonded",
+      "cameraId": "v2-c10",
+      "phase": "enter",
+      "people": 1,
+      "snapshot": "snap-bonded-in.jpg"
+    },
+    {
+      "at": 85.7,
+      "do": "pick",
+      "store": "bonded",
+      "cameraId": "v2-c10",
+      "itemId": "BD-001",
+      "qty": 1
+    },
+    {
+      "at": 86.0,
+      "do": "store",
+      "store": "bonded",
+      "cameraId": "v2-c10",
+      "phase": "exit",
+      "snapshot": "snap-bonded-out.jpg"
+    }
+  ]
+}

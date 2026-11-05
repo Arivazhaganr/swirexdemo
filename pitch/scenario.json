@@ -1,0 +1,125 @@
+{
+  "vesselId": "v2",
+  "durationS": 90,
+  "cameras": [
+    {
+      "cameraId": "v2-c07",
+      "feed": "feed-09",
+      "clip": "pitch/mooring.webm",
+      "poster": "pitch/mooring.jpg",
+      "startAt": 6.0,
+      "durationS": 15.0,
+      "tracks": "pitch/v2-c07.tracks.json"
+    },
+    {
+      "cameraId": "v2-c03",
+      "feed": "feed-07",
+      "clip": "pitch/walkway.webm",
+      "poster": "pitch/walkway.jpg",
+      "startAt": 23.0,
+      "durationS": 13.5,
+      "tracks": "pitch/v2-c03.tracks.json"
+    },
+    {
+      "cameraId": "v2-c04",
+      "feed": "feed-08",
+      "clip": "pitch/deck.webm",
+      "poster": "feeds/feed-08.jpg",
+      "startAt": 0.0,
+      "durationS": 15.0
+    },
+    {
+      "cameraId": "v2-c01",
+      "feed": "feed-05",
+      "clip": "pitch/smoke.webm",
+      "poster": "pitch/smoke.jpg",
+      "startAt": 26.0,
+      "durationS": 30.0,
+      "tracks": "pitch/v2-c01.tracks.json"
+    }
+  ],
+  "cameraPatches": [
+    {
+      "id": "v2-c03",
+      "space": "Side deck stbd",
+      "zoneId": "v2-z4"
+    }
+  ],
+  "zonePatches": [
+    {
+      "id": "v2-z4",
+      "dwellSeconds": 3,
+      "maxAutoTier": 2
+    }
+  ],
+  "wallLast": [
+    "v2-c02"
+  ],
+  "beats": [
+    {
+      "at": 15.35,
+      "do": "detect",
+      "id": "moor",
+      "cameraId": "v2-c07",
+      "detClass": "mooring-snapback",
+      "detectorConfidence": 81.1,
+      "bbox": {
+        "x": 0.163,
+        "y": 0.0029,
+        "w": 0.062,
+        "h": 0.3637
+      },
+      "snapshot": "snap-mooring.jpg",
+      "vlmCaption": "Two crew in hard hats and hi-vis vests working the forward mooring lines; one is standing in the bight of a line beside the bollards while it is under load.",
+      "verdict": "confirmed",
+      "reasonedConfidence": 94.0,
+      "reasoning": "Vessel is IN-PORT with lines being worked, so the snapback rule applies. The crew member (track 13) inside the marked area of Mooring snapback fwd for 3.0 s. PPE is worn \u2014 the position is the hazard, not the clothing. Confirmed."
+    },
+    {
+      "at": 27.85,
+      "do": "detect",
+      "id": "walkway",
+      "cameraId": "v2-c03",
+      "detClass": "restricted-access",
+      "severity": "high",
+      "detectorConfidence": 46.2,
+      "bbox": {
+        "x": 0.542,
+        "y": 0.2605,
+        "w": 0.0322,
+        "h": 0.1504
+      },
+      "snapshot": "snap-walkway.jpg",
+      "vlmCaption": "A person in dark clothing walking aft along the outer starboard walkway into the section closed for operations; no authorised crew are working there.",
+      "verdict": "confirmed",
+      "reasonedConfidence": 91.0,
+      "reasoning": "Cargo operations are active, so the outer walkway section is closed to all but assigned crew. The person (track 1) inside the marked area of Main deck cargo ops for 3.0 s. They are continuing aft, not passing through. Unauthorised entry confirmed."
+    },
+    {
+      "at": 30.5,
+      "do": "detect",
+      "id": "smoke",
+      "cameraId": "v2-c01",
+      "detClass": "smoke",
+      "severity": "critical",
+      "detectorConfidence": 83.0,
+      "bbox": {
+        "x": 0.4562,
+        "y": 0.6278,
+        "w": 0.0734,
+        "h": 0.2278
+      },
+      "snapshot": "snap-smoke.jpg",
+      "vlmCaption": "Provisional \u2014 grey plume rising from the forecastle deck. Awaiting reasoning."
+    },
+    {
+      "at": 33.4,
+      "do": "verdict",
+      "ref": "smoke",
+      "verdict": "confirmed",
+      "reasonedConfidence": 96.0,
+      "vlmCaption": "Dark grey smoke rising from the forecastle beside the forward store, thickening and drifting to starboard.",
+      "reasoning": "The plume persists for over 6 s and is growing. It rises from the deck, not the funnel, and no hot-work permit is open on the forecastle. Not spray or exhaust. Confirmed \u2014 alarm stands."
+    }
+  ]
+}
